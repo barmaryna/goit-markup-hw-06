@@ -96,19 +96,19 @@ img {
 
 .list-items:hover,
 .list-items:focus {
-    color: var(--btn-color_second);
+    color: var(--pressed-state-color);
 }
 
 .active {
-    color: var(--btn-color_second);
+    color: var(--pressed-state-color);
 }
 
 .list-items.active::after {
     content: '';
     width: 100%;
     height: 4px;
-    color: var(--btn-color_second);
-    background-color: var(--btn-color_second);
+    color: var(--pressed-state-color);
+    background-color: var(--pressed-state-color);
     position: absolute;
     left: 0;
     bottom: -1px;
@@ -127,7 +127,7 @@ img {
 .contact {
     text-decoration: none;
     font-style: normal;
-    color: var(--text-color);
+    color: var(--body-text-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
     transition: color var(--transition);
@@ -135,7 +135,7 @@ img {
 
 .contact:hover,
 .contact:focus {
-    color: var(--btn-color_second);
+    color: var(--pressed-state-color);
 }
 
 .logo-dark-part {
