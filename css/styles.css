@@ -67,15 +67,75 @@ img {
     color: var(--pressed-state-color);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
 .logo {
-    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
+    color: #404bbf;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--accent-color);
     margin-right: 76px;
+}
+
+.logo-pre {
+    color: #2e2f42;
+}
+
+.list-items {
+    position: relative;
+    text-decoration: none;
+    color: var(--title-color);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+    transition: color var(--transition);
+}
+
+.list-items:hover,
+.list-items:focus {
+    color: var(--btn-color_second);
+}
+
+.active {
+    color: var(--btn-color_second);
+}
+
+.list-items.active::after {
+    content: '';
+    width: 100%;
+    height: 4px;
+    color: var(--btn-color_second);
+    background-color: var(--btn-color_second);
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    border-radius: 2px;
+}
+
+.contact-item {
+    font-style: normal;
+}
+
+.contact-item-list {
+    display: flex;
+    gap: 40px;
+}
+
+.contact {
+    text-decoration: none;
+    font-style: normal;
+    color: var(--text-color);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    transition: color var(--transition);
+}
+
+.contact:hover,
+.contact:focus {
+    color: var(--btn-color_second);
 }
 
 .logo-dark-part {
@@ -346,6 +406,11 @@ img {
     background-color: var(--white-background-color);
 }
 
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .header-link {
     font-weight: 500;
     line-height: 1.5;
@@ -370,6 +435,11 @@ img {
 .header-nav {
     display: flex;
     align-items: center;
+}
+
+.header-nav-list {
+    display: flex;
+    gap: 40px;
 }
 
 .header-address {
