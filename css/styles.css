@@ -584,7 +584,8 @@ img {
 }
 
 .section-list {
-    gap: 24px;
+    width: 264px;
+    margin: 0 auto;
 }
 
 .about-company-item {
