@@ -974,16 +974,24 @@ img {
 
 .foot-container {
     display: flex;
-    align-items: baseline;
+    flex-direction: column;
+    gap: 72px;
 }
 
 .foot-logo-box {
-    margin-right: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 72px;
+    max-width: 268px;
+    margin: 0 auto;
 }
 
 .logo-foot {
     display: inline-block;
     margin-bottom: 16px;
+    color: var(--btn-color_primar);
 }
 
 .logo-foot-color {
@@ -1001,9 +1009,10 @@ img {
     line-height: 1.5;
     color: #ffffff;
 }
-*/
-.foot-social-box {
-    margin-right: 80px;
+
+.foot-social-list {
+    display: flex;
+    gap: 16px;
 }
 
 .foot-social-list {
@@ -1057,7 +1066,9 @@ img {
 
 .subscribe-form {
     display: flex;
-    gap: 24px;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
 }
 
 .subscribe-input {
