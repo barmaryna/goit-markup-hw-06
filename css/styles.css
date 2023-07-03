@@ -726,7 +726,8 @@ img {
 }
 
 .descr-img-item {
-    width: calc((100% - 48px) / 3);
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 /**======= What we are doing =====*/
