@@ -588,6 +588,11 @@ img {
     margin: 0 auto;
 }
 
+.team-container-list {
+    width: 264px;
+    margin: 0 auto;
+}
+
 .about-company-item {
     width: calc((100% - 72px) / 4);
 }
