@@ -991,7 +991,7 @@ img {
 .logo-foot {
     display: inline-block;
     margin-bottom: 16px;
-    color: var(--btn-color_primar);
+    color: var(--accent-color);
 }
 
 .logo-foot-color {
