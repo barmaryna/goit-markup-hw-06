@@ -19,6 +19,8 @@
     <title>Webstudio</title>
 </head>
 <body>
+
+    <!--================== HEADER ================-->
     <header class="header">
         <div class="container header-container">
             <nav class="header-nav">
@@ -45,9 +47,79 @@
                     </li>
                 </ul>
             </address>
+    
+            <!--================== MOBILE MENU  ================-->    
+            <div class="mobile-menu">
+                <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+                    <svg class="mobile-menu-icon" width="32" height="22">
+                        <use href="./images/icons.svg#icon-menu-hamburger"></use>
+                    </svg>
+                </button>
+            </div>
+    
+            <div class="menu-container js-menu-container" id="mobile-menu">
+                <button class="modal-btn-close menu-toggle js-close-menu">
+                    <svg class="close-icon" width="8" height="8">
+                        <use href="./images/icons.svg#icon-close"></use>
+                    </svg>
+                </button>
+                <div class="menu-content">
+                    <ul class="mobile-menu-list">
+                        <li class="menu-list-item">
+                            <a class="menu-list-link" href="./index.html">Studio</a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a class="menu-list-link active active-mob" href="./portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a class="menu-list-link" href="">Contacts</a>
+                        </li>
+                    </ul>
+    
+                    <address class="menu-contact">
+                        <ul class="menu-contact-list">
+                            <li class="menu-contact-item">
+                                <a class="menu-contact-tel menu-list-item" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                            </li>
+                            <li class="menu-contact-item">
+                                <a class="menu-contact-email" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                            </li>
+                        </ul>
+                    </address>
+    
+                    <ul class="foot-social-list menu-social">
+                        <li class="foot-social-item">
+                            <a href="" class="foot-social-item-link" target="_blank" rel="noopener noreferrer">
+                                <svg class="social-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-instagram"></use>
+                                </svg></a>
+                        </li>
+                        <li class="foot-social-item">
+                            <a href="" class="foot-social-item-link" target="_blank" rel="noopener noreferrer">
+                                <svg class="social-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-twitter"></use>
+                                </svg></a>
+                        </li>
+                        <li class="foot-social-item">
+                            <a href="" class="foot-social-item-link" target="_blank" rel="noopener noreferrer">
+                                <svg class="social-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-facebook"></use>
+                                </svg></a>
+                        </li>
+                        <li class="foot-social-item">
+                            <a href="" class="foot-social-item-link" target="_blank" rel="noopener noreferrer">
+                                <svg class="social-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-linkedin"></use>
+                                </svg></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </header>
+
     <main>
+        <!--================== PORTFOLIO ================-->
         <section class="portfolio-section">
             <div class="container">
             <h1 hidden class="visually-hidden">portfolio</h1>
@@ -62,7 +134,11 @@
                 <li class="card pf-item"> 
                     <a href="" class="link">
                         <div class="pfo-item-pic">
-                            <img 
+                            <img
+                                srcset="
+                                ./images/menu.jpg    1x,
+                                ./images/menu@2x.jpg 2x
+                                "
                                 src="./images/menu.jpg"
                                 alt="Menu"
                                 width="360"
@@ -83,7 +159,11 @@
                 <li class="card pf-item">
                     <a href="" class="link">
                         <div class="pfo-item-pic">  
-                            <img 
+                            <img
+                                srcset="
+                                ./images/kod.jpg    1x,
+                                ./images/kod@2x.jpg 2x
+                                "
                                 src="./images/kod.jpg"
                                 alt="Kod" 
                                 width="360" 
@@ -105,6 +185,10 @@
                     <a href="" class="link">
                         <div class="pfo-item-pic">
                         <img
+                            srcset="
+                            ./images/laptop.jpg    1x,
+                            ./images/laptop@2x.jpg 2x
+                            "
                             src="./images/laptop.jpg"
                             alt="Laptop"
                             width="360"
@@ -126,6 +210,10 @@
                     <a href="" class="link">
                         <div class="pfo-item-pic">
                             <img
+                                srcset="
+                                ./images/taxi.jpg    1x,
+                                ./images/taxi@2x.jpg 2x
+                                "
                                 src="./images/taxi.jpg"
                                 alt="Taxi"
                                 width="360"
@@ -147,6 +235,10 @@
                     <a href="" class="link">
                         <div class="pfo-item-pic">
                             <img
+                                srcset="
+                                ./images/background.jpg    1x,
+                                ./images/background@2x.jpg 2x
+                                "
                                 src="./images/background.jpg"
                                 alt="Background"
                                 width="360"
@@ -168,6 +260,10 @@
                     <a href="" class="link">
                         <div class="pfo-item-pic">
                             <img
+                                srcset="
+                                ./images/girl.jpg    1x,
+                                ./images/girl@2x.jpg 2x
+                                "
                                 src="./images/girl.jpg"
                                 alt="Girl"
                                 width="360"
@@ -189,6 +285,10 @@
                     <a href="" class="link">
                         <div class="pfo-item-pic">
                             <img
+                                srcset="
+                                ./images/insta.jpg    1x,
+                                ./images/insta@2x.jpg 2x
+                                "
                                 src="./images/insta.jpg"
                                 alt="Insta"
                                 width="360"
@@ -210,6 +310,10 @@
                     <a href="" class="link">
                         <div class="pfo-item-pic">
                             <img
+                                srcset="
+                                ./images/food.jpg    1x,
+                                ./images/food@2x.jpg 2x
+                                "
                                 src="./images/food.jpg"
                                 alt="Food"
                                 width="360"
@@ -231,6 +335,10 @@
                     <a href="" class="link">
                         <div class="pfo-item-pic">
                             <img
+                                srcset="
+                                ./images/cofee.jpg    1x,
+                                ./images/cofee@2x.jpg 2x
+                                "
                                 src="./images/coffee.jpg"
                                 alt="Coffee"
                                 width="360"
