@@ -1180,7 +1180,7 @@ img {
 
 /**==== PORTFOLIO(pfo) ITEMS ====*/
 
-.pf-btn-list{
+.pfo-items-list {
     display: flex;
     flex-wrap: wrap;
     row-gap: 48px;
@@ -1247,8 +1247,8 @@ img {
     transition: transform var(--transition);
 }
 
-.link:hover .pic-cover-text,
-.link:focus .pic-cover-text {
+.pfo-item-link:hover .pic-cover-text,
+.pfo-item-link:focus .pic-cover-text {
     transform: translateY(0);
 }
 
@@ -1487,7 +1487,7 @@ img {
 
     /**==== PORTFOLIO(pfo) ITEMS ====*/
 
-    .pf-btn-list{
+    .pfo-items-list{
         gap: 72px 24px;
         justify-content: flex-start;
     }
@@ -1693,7 +1693,7 @@ img {
 
     /**==== PORTFOLIO(pfo) ITEMS ====*/
 
-    .pf-btn-list{
+    .pfo-items-list{
         gap: 48px 24px;
         justify-content: flex-start;
     }
