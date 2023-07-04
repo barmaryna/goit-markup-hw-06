@@ -1619,7 +1619,7 @@ img {
     }
 
     .team-container-list {
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
     }
 
     /**======= CUSTOMERS =======*/
