@@ -4,16 +4,15 @@
     --dark-dark-title-color: #2e2f42;
     --dark-osh-color: #2e2f42;
     --light-body-color: #f4f4fd;
-    --accent-color: #4D5AE5;
+    --accent-color: #4d5ae5;
     --light-accent-color: #e7e9fc;
     --pressed-state-color: #404bbf;
     --success-color: #31d0aa;
     --modal-overlay-color: rgba(46, 47, 66, 0.4);
     --bebebe-color: rgba(46, 47, 66, 0.7);
-    --white-background-color: # ffffff;
+    --white-background-color: #ffffff;
     --modal-background-color: #fcfcfc;
-    --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+    --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
 body {
     font-family: "Roboto", sans-serif;
