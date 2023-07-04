@@ -228,7 +228,7 @@ img {
 }
 
 .menu-contact-tel {
-    color: var(-accent-color);
+    color: var(--accent-color);
     transition: color var(--transition), text-decoration var(--transition);
 }
 
@@ -1154,7 +1154,7 @@ img {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    color: var(-accent-color);
+    color: var(--accent-color);
     line-height: 1.5;
     letter-spacing: 0.04em;
     /* 0.64/16 */
