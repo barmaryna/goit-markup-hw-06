@@ -598,19 +598,6 @@ img {
     width: calc((100% - 72px) / 4);
 }
 
-
-
-.abt-us-item-ico {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 112px;
-    background-color: var(--light-body-color);
-    padding: 24px 100px;
-    margin-bottom: 8px;
-    border-radius: 4px;
-}
-
 .card-title {
     font-weight: 500;
     font-size: 20px;
