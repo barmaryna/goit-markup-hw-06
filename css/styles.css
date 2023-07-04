@@ -590,7 +590,6 @@ img {
 }
 
 .team-container-list {
-    max-width: 264px;
     margin: 0 auto;
 }
 
@@ -1619,7 +1618,6 @@ img {
     }
 
     .team-container-list {
-        flex-wrap: nowrap;
     }
 
     /**======= CUSTOMERS =======*/
